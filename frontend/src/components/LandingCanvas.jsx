@@ -104,7 +104,9 @@ export default function LandingPage() {
         </p>
 
         <div className='flex gap-4'>
-            <button className='rounded-lg bg-cyan-400 text-black px-6 py-3 text-sm font-semibold tracking-wide cursor-pointer
+            <button
+                onClick={() => window.open('https://wa.me/14155238886?text=Hi%20SocialSynapse!', '_blank')}
+                className='rounded-lg bg-cyan-400 text-black px-6 py-3 text-sm font-semibold tracking-wide cursor-pointer
                                hover:bg-cyan-300 hover:shadow-[0_0_25px_rgba(0,229,255,0.35)] transition-all duration-300
                                flex items-center gap-2'>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
