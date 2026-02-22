@@ -2,6 +2,8 @@
 
 SocialSynapse is an AI-powered "second brain" that allows you to save, organize, and chat with content from social media platforms (YouTube, Instagram, TikTok, etc.) via WhatsApp. It extracts content from links, generates AI summaries/categories, and provides a beautiful dashboard for searching and interacting with your saved knowledge.
 
+Demo link - https://youtu.be/-PNwTyVJPgU
+
 ## Features
 
 - **WhatsApp Integration**: Save content by simply sending a social media link to a WhatsApp bot.
