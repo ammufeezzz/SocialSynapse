@@ -1,7 +1,8 @@
 import {
   FaTwitter, FaInstagram, FaLinkedinIn,
-  FaRedditAlien, FaPinterestP, FaMediumM
+  FaRedditAlien, FaYoutube, FaMediumM
 } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const iconData = [
   { Icon: FaTwitter, cx: 80, cy: 140, side: 'left' },
@@ -9,7 +10,7 @@ const iconData = [
   { Icon: FaInstagram, cx: 80, cy: 560, side: 'left' },
   { Icon: FaRedditAlien, cx: 1320, cy: 140, side: 'right' },
   { Icon: FaMediumM, cx: 1320, cy: 350, side: 'right' },
-  { Icon: FaPinterestP, cx: 1320, cy: 560, side: 'right' },
+  { Icon: FaYoutube, cx: 1320, cy: 560, side: 'right' },
 ];
 
 const centerLeftX = 520;
@@ -17,6 +18,7 @@ const centerRightX = 880;
 const centerY = 320;
 
 export default function LandingPage() {
+  const navigate = useNavigate();
   return (
     <div className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-black">
 
@@ -114,7 +116,8 @@ export default function LandingPage() {
                 </svg>
                 Try the Bot
             </button>
-            <button className='rounded-lg border border-white/20 text-white/80 px-6 py-3 text-sm font-semibold tracking-wide cursor-pointer
+            <button onClick={() => navigate('/dashboard')}
+                className='rounded-lg border border-white/20 text-white/80 px-6 py-3 text-sm font-semibold tracking-wide cursor-pointer
                                hover:border-cyan-400/50 hover:text-cyan-400 hover:bg-cyan-400/5 hover:shadow-[0_0_20px_rgba(0,229,255,0.1)] transition-all duration-300
                                flex items-center gap-2'>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
