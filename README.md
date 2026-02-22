@@ -128,7 +128,7 @@ You will need the following API keys:
    GROQ_API_KEY=...
    PORT=3000
    ```
-4. Start the server: `npm run dev`
+4. Start the server: `node/nodemon server.js`
 
 ### Frontend Installation
 
