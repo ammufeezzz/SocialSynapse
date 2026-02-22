@@ -138,7 +138,7 @@ You will need the following API keys:
 
 ## Usage
 
-1. **Saving Content**: Message your Twilio WhatsApp number with a link (e.g., https://www.youtube.com/watch?v=...). The bot will extract and save it.
+1. **Saving Content**: Message your Twilio WhatsApp number with a link. The bot will extract and save it.
 2. **Dashboard**: Open the frontend URL (usually `http://localhost:5173`) to view your saved posts.
 3. **Search**: Use the search bar for keyword search or semantic search (using the AI icon).
 4. **Chat**: Click on "Chat" in the sidebar to ask questions about your saved content.
